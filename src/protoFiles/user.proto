@@ -1,0 +1,50 @@
+syntax = "proto3";
+
+message Message {
+oneof content {
+    Letter letter = 1 ;
+ }
+}
+
+message UserMessage {
+  oneof content {
+    Join      join    = 1;
+    Left      left    = 2;
+    Command   command = 3;
+    Letter   letter = 4;
+  }
+}
+
+message Singin {
+  string name     = 1;
+  string password = 2;
+}
+
+message Join {
+  string name     = 1;
+  string password = 2;
+}
+
+message Left {
+
+}
+message Letter {
+string message=1;
+}
+
+message Command {
+  Input input = 1;
+  string message =2;
+}
+
+enum Input {
+  LSROOM = 0;
+  LSUSER = 1;
+  MKROOM = 2;
+  RMROOM = 3;
+  JOIN =   4;
+  EXIT =   5;
+  CHNAME = 6;
+  
+
+}
