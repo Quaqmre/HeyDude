@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'TalkAndTalk' do
+target 'HeyDude' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
@@ -23,10 +23,10 @@ target 'TalkAndTalk' do
   end
 end
 
-target 'TalkAndTalk-tvOS' do
-  # Pods for TalkAndTalk-tvOS
+target 'HeyDude-tvOS' do
+  # Pods for HeyDude-tvOS
 
-  target 'TalkAndTalk-tvOSTests' do
+  target 'HeyDude-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

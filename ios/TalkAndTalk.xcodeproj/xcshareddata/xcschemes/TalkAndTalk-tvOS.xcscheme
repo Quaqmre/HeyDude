@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "TalkAndTalk-tvOS.app"
-               BlueprintName = "TalkAndTalk-tvOS"
-               ReferencedContainer = "container:TalkAndTalk.xcodeproj">
+               BuildableName = "HeyDude-tvOS.app"
+               BlueprintName = "HeyDude-tvOS"
+               ReferencedContainer = "container:HeyDude.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "TalkAndTalk-tvOSTests.xctest"
-               BlueprintName = "TalkAndTalk-tvOSTests"
-               ReferencedContainer = "container:TalkAndTalk.xcodeproj">
+               BuildableName = "HeyDude-tvOSTests.xctest"
+               BlueprintName = "HeyDude-tvOSTests"
+               ReferencedContainer = "container:HeyDude.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "TalkAndTalk-tvOS.app"
-            BlueprintName = "TalkAndTalk-tvOS"
-            ReferencedContainer = "container:TalkAndTalk.xcodeproj">
+            BuildableName = "HeyDude-tvOS.app"
+            BlueprintName = "HeyDude-tvOS"
+            ReferencedContainer = "container:HeyDude.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "TalkAndTalk-tvOS.app"
-            BlueprintName = "TalkAndTalk-tvOS"
-            ReferencedContainer = "container:TalkAndTalk.xcodeproj">
+            BuildableName = "HeyDude-tvOS.app"
+            BlueprintName = "HeyDude-tvOS"
+            ReferencedContainer = "container:HeyDude.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
